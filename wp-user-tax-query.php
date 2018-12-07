@@ -33,7 +33,7 @@ function modifyQuery(\WP_User_Query $query)
     // Loop through the queries in the taxonomy
     foreach ($taxQuery as $taxGroup) {
         // Get IDs for each term
-        $termQuery = new WP_Term_Query([
+        $termQuery = new \WP_Term_Query([
             'taxonomy'   => $taxGroup['taxonomy'],
             'name'       => $taxGroup['terms'],
             'hide_empty' => false,
