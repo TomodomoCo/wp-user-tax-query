@@ -1,4 +1,13 @@
 <?php
+/**
+ * Plugin Name: Tomodomo › WP User Tax Query
+ * Plugin URI: https://tomodomo.co/
+ * Version: 1.0.0
+ * Description: Limited support for tax_query within a WP_User_Query
+ * Author: Tomodomo
+ * Author URI: https://tomodomo.co/
+ * License: MIT
+ */
 
 namespace Tomodomo\Plugin\UserTaxQuery;
 
