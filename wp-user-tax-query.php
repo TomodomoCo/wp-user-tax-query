@@ -1,6 +1,6 @@
 <?php
 
-namespace Tomodomo\Plugin\WpUserTaxQuery;
+namespace Tomodomo\Plugin\UserTaxQuery;
 
 add_action('pre_get_users', __NAMESPACE__ . '\\modifyQuery');
 

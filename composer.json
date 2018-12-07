@@ -1,0 +1,19 @@
+{
+  "name": "tomodomo/wp-user-tax-query",
+  "description": "Simple drop-in for tax_query support within a WP_User_Query",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "homepage": "https://tomodomo.co/",
+  "authors": [
+    {
+      "name": "Tomodomo",
+      "homepage": "https://tomodomo.co/"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
